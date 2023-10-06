@@ -42,7 +42,7 @@ twitter:
 
 # Liquid
 liquid:
-  error_mode: strict
+  error_mode:
 
 # Build settings
 markdown: kramdown
