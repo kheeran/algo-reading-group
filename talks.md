@@ -1,7 +1,7 @@
 ---
-title: Post Archive
+title: All Talks
 layout: posts
-permalink: /posts/
+permalink: /talks/
 show_excerpts: true
 entries_layout: list
 ---

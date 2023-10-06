@@ -102,6 +102,14 @@ defaults:
       layout: post
       comments: true
       share: true
+  # Talk defaults
+  - scope:
+      path: "_talks"
+      type: talks
+    values:
+      layout: post
+      comments: true
+      share: true
 
 # Site Author
 author:
