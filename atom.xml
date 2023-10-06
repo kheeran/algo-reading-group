@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://kheerannaidu.com/algo-reading-group/atom.xml" rel="self" type="application/atom+xml" /><link href="https://kheerannaidu.com/algo-reading-group/" rel="alternate" type="text/html" /><updated>2023-10-06T13:59:07+01:00</updated><id>https://kheerannaidu.com/algo-reading-group/atom.xml</id><title type="html">Algorithms and Complexity Reading Group</title><subtitle></subtitle><author><name>Algorithms and Complexity Group</name></author><entry><title type="html">Hidden Post</title><link href="https://kheerannaidu.com/algo-reading-group/2018/02/25/hidden-post.html" rel="alternate" type="text/html" title="Hidden Post" /><published>2018-02-25T00:00:00+00:00</published><updated>2018-02-25T00:00:00+00:00</updated><id>https://kheerannaidu.com/algo-reading-group/2018/02/25/hidden-post</id><content type="html" xml:base="https://kheerannaidu.com/algo-reading-group/2018/02/25/hidden-post.html">&lt;p&gt;This post has YAML Front Matter of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hidden: true&lt;/code&gt; and should not appear in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;paginator.posts&lt;/code&gt;.&lt;/p&gt;</content><author><name>Algorithms and Complexity Group</name></author><summary type="html">This post has YAML Front Matter of hidden: true and should not appear in paginator.posts.</summary></entry><entry><title type="html">MathJax Example</title><link href="https://kheerannaidu.com/algo-reading-group/2015/08/10/mathjax-example.html" rel="alternate" type="text/html" title="MathJax Example" /><published>2015-08-10T13:08:50+01:00</published><updated>2015-08-10T13:08:50+01:00</updated><id>https://kheerannaidu.com/algo-reading-group/2015/08/10/mathjax-example</id><content type="html" xml:base="https://kheerannaidu.com/algo-reading-group/2015/08/10/mathjax-example.html">&lt;p&gt;&lt;a href=&quot;http://www.mathjax.org/&quot;&gt;MathJax&lt;/a&gt; is a simple, yet powerful, way of
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://kheerannaidu.com/algo-reading-group/atom.xml" rel="self" type="application/atom+xml" /><link href="https://kheerannaidu.com/algo-reading-group/" rel="alternate" type="text/html" /><updated>2023-10-06T14:28:53+01:00</updated><id>https://kheerannaidu.com/algo-reading-group/atom.xml</id><title type="html">Algorithms and Complexity Reading Group</title><subtitle></subtitle><author><name>Algorithms and Complexity Group</name></author><entry><title type="html">Beating a 0.5-approximate matching in one pass of the stream</title><link href="https://kheerannaidu.com/algo-reading-group/2023/08/10/talk-example.html" rel="alternate" type="text/html" title="Beating a 0.5-approximate matching in one pass of the stream" /><published>2023-08-10T00:00:00+01:00</published><updated>2023-08-10T00:00:00+01:00</updated><id>https://kheerannaidu.com/algo-reading-group/2023/08/10/talk-example</id><content type="html" xml:base="https://kheerannaidu.com/algo-reading-group/2023/08/10/talk-example.html">&lt;p&gt;&lt;a href=&quot;http://www.mathjax.org/&quot;&gt;MathJax&lt;/a&gt; is a simple, yet powerful, way of
+including Tex/LaTex/MathML based mathematics in HTML webpages.&lt;/p&gt;
+
+&lt;h2 id=&quot;usage&quot;&gt;Usage&lt;/h2&gt;
+
+&lt;p&gt;To enable MathJax support configure your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.xml&lt;/code&gt; to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kramdown&lt;/code&gt; as the Markdown parser.&lt;/li&gt;
+  &lt;li&gt;Enable MathJax.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The version of MathJax enabled is v3.&lt;/p&gt;
+
+&lt;p&gt;An example setting for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.xml&lt;/code&gt; is shown below:&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;markdown&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;kramdown&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;mathjax&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;enable&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;combo&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;tex-svg&quot;&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;ams&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$&lt;/code&gt; as delimiters to enable TeX math mode, both for inline and display (i.e. block) rendering.&lt;/p&gt;
+
+&lt;p&gt;Here is an example equation that is inline: \(a^2 + b^2 = c^2\), where
+\(a\), \(b\), and \(c\) are variables.&lt;/p&gt;
+
+&lt;p&gt;Here is a block rendering with no default equation numbering:&lt;/p&gt;
+
+\[\frac{1}{n^{2}}\]
+
+&lt;p&gt;And, below is a block using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\begin{equation}&lt;/code&gt; and
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\end{equation}&lt;/code&gt; LaTeX delimiters.  This equation will be numbered in
+the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ams&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;all&lt;/code&gt; setting for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mathjax.tags&lt;/code&gt;.&lt;/p&gt;
+
+\[\begin{equation}
+\mathbf{X}_{n,p} = \mathbf{A}_{n,k} \mathbf{B}_{k,p}    \label{test}
+\end{equation}\]
+
+&lt;p&gt;If equation numbering is turned on, we should see an equation number here: \(\eqref{test}\).&lt;/p&gt;
+
+&lt;p&gt;An example using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{align}&lt;/code&gt; LaTeX environment is below.  The first equation has a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\notag&lt;/code&gt; directive.&lt;/p&gt;
+
+\[\begin{align}
+(x + y) (x - y) &amp;amp;= x^2 + xy - xy + y^2   \notag \\
+    &amp;amp;= x^2 - y^2
+\end{align}\]</content><author><name>Kheeran K Naidu</name></author><category term="matchings" /><summary type="html">MathJax is a simple, yet powerful, way of including Tex/LaTex/MathML based mathematics in HTML webpages.</summary></entry><entry><title type="html">Hidden Post</title><link href="https://kheerannaidu.com/algo-reading-group/2018/02/25/hidden-post.html" rel="alternate" type="text/html" title="Hidden Post" /><published>2018-02-25T00:00:00+00:00</published><updated>2018-02-25T00:00:00+00:00</updated><id>https://kheerannaidu.com/algo-reading-group/2018/02/25/hidden-post</id><content type="html" xml:base="https://kheerannaidu.com/algo-reading-group/2018/02/25/hidden-post.html">&lt;p&gt;This post has YAML Front Matter of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hidden: true&lt;/code&gt; and should not appear in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;paginator.posts&lt;/code&gt;.&lt;/p&gt;</content><author><name>Algorithms and Complexity Group</name></author><summary type="html">This post has YAML Front Matter of hidden: true and should not appear in paginator.posts.</summary></entry><entry><title type="html">MathJax Example</title><link href="https://kheerannaidu.com/algo-reading-group/2015/08/10/mathjax-example.html" rel="alternate" type="text/html" title="MathJax Example" /><published>2015-08-10T13:08:50+01:00</published><updated>2015-08-10T13:08:50+01:00</updated><id>https://kheerannaidu.com/algo-reading-group/2015/08/10/mathjax-example</id><content type="html" xml:base="https://kheerannaidu.com/algo-reading-group/2015/08/10/mathjax-example.html">&lt;p&gt;&lt;a href=&quot;http://www.mathjax.org/&quot;&gt;MathJax&lt;/a&gt; is a simple, yet powerful, way of
 including Tex/LaTex/MathML based mathematics in HTML webpages.&lt;/p&gt;
 
 &lt;h2 id=&quot;usage&quot;&gt;Usage&lt;/h2&gt;
@@ -1081,26 +1127,4 @@ Capitalized text
 
 &lt;p&gt;Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard yr kogi. Ugh small batch swag four loko. Fap post-ironic qui tote bag farm-to-table american apparel scenester keffiyeh vero, swag non pour-over gentrify authentic pitchfork. Schlitz scenester lo-fi voluptate, tote bag irony bicycle rights pariatur vero Vice freegan wayfarers exercitation nisi shoreditch. Chambray tofu vero sed. Street art swag literally leggings, Cosby sweater mixtape PBR lomo Banksy non in pitchfork ennui McSweeney’s selfies. Odd Future Banksy non authentic.&lt;/p&gt;
 
-&lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;</content><author><name>Algorithms and Complexity Group</name></author><category term="sample post" /><category term="readability" /><category term="test" /><summary type="html">A large amount of sample text to test readability of a text heavy page.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://kheerannaidu.com/algo-reading-group/images/so-simple-sample-image-2.jpg" /><media:content medium="image" url="https://kheerannaidu.com/algo-reading-group/images/so-simple-sample-image-2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Layout: Author Override</title><link href="https://kheerannaidu.com/algo-reading-group/2012/03/14/layout-author-override.html" rel="alternate" type="text/html" title="Layout: Author Override" /><published>2012-03-14T00:00:00+00:00</published><updated>2012-03-14T00:00:00+00:00</updated><id>https://kheerannaidu.com/algo-reading-group/2012/03/14/layout-author-override</id><content type="html" xml:base="https://kheerannaidu.com/algo-reading-group/2012/03/14/layout-author-override.html">&lt;p&gt;Sites that may have content authored from various individuals can be accommodated by using &lt;a href=&quot;https://jekyllrb.com/docs/datafiles/&quot;&gt;data files&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;To attribute an author to a post or page that is different from the site author specified in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 1.&lt;/strong&gt; Create &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_data/authors.yml&lt;/code&gt; and add authors using the following format. Anything variables found under &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;author&lt;/code&gt; in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; can be used (e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;avatar&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;uri&lt;/code&gt;, social media profiles, etc.).&lt;/p&gt;
-
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# /_data/authors.yml&lt;/span&gt;
-
-&lt;span class=&quot;na&quot;&gt;Billy Rick&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Billy&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Rick&quot;&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;picture&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;/images/bio-photo-2.jpg&quot;&lt;/span&gt;
-
-&lt;span class=&quot;na&quot;&gt;Cornelius Fiddlebone&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Cornelius&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Fiddlebone&quot;&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;picture&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;/images/bio-photo.jpg&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 2.&lt;/strong&gt; Assign one of the authors in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;authors.yml&lt;/code&gt; to a post or page you wish to override the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;site.author&lt;/code&gt; with.&lt;/p&gt;
-
-&lt;p&gt;Example: To assign &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Billy Rick&lt;/code&gt; as an author for a post the following YAML Front Matter would be applied:&lt;/p&gt;
-
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;author&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Billy Rick&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Billy Rick</name></author><summary type="html">A post to test author overrides using a data file.</summary></entry></feed>
+&lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;</content><author><name>Algorithms and Complexity Group</name></author><category term="sample post" /><category term="readability" /><category term="test" /><summary type="html">A large amount of sample text to test readability of a text heavy page.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://kheerannaidu.com/algo-reading-group/images/so-simple-sample-image-2.jpg" /><media:content medium="image" url="https://kheerannaidu.com/algo-reading-group/images/so-simple-sample-image-2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
