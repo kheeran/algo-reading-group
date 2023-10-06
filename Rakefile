@@ -74,18 +74,3 @@ task :preview do
 
   Jekyll::Commands::Serve.process(options)
 end
-
-task :build do
-  base = Pathname.new('.').expand_path
-  options = {
-    "source"        => base.join('').to_s,
-    "destination"   => base.join('_site').to_s,
-    "force_polling" => false,
-    "serving"       => true,
-    "theme"         => "jekyll-theme-so-simple"
-  }
-
-  options = Jekyll.configuration(options)
-
-  Jekyll::Commands::Build.process(options)
-end
