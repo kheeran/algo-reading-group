@@ -20,7 +20,7 @@ locale: en-US
 title: "Algorithms and Complexity Reading Group"
 description: ""
 baseurl: "/algo-reading-group" # the subpath of your site, e.g. "/blog"
-url: http://kheerannaidu.com/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: https://kheerannaidu.com/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: "/images/bristol-logo.jpg" # path of site logo, e.g. "/assets/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: false
